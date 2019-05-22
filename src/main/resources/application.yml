@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.198.132:3306/springboot_cache?useSSL=false
+    username: root
+    password: 98678678678zj
+    driver-class-name: com.mysql.jdbc.Driver
+  redis:
+    host: 192.168.198.132    #配置redis地址
+    port: 6379
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: false         #true为开启驼峰命名法
